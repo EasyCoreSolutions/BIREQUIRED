@@ -1,15 +1,15 @@
 
-# 리본메뉴
+# 탭
 
 BI-Required의 피벗테이블 9가지 옵션에 대해 알아 봅시다.
 
-리본 메뉴란 BI-Required의 우측 상단에
+탭 이란 BI-Required의 우측 상단에
 
-![리본메뉴 진입버튼](https://user-images.githubusercontent.com/42717821/228703427-f6b27160-7e78-4f19-bb9d-5eb8a8fb30b3.JPG)
+![탭 메뉴 진입버튼](https://user-images.githubusercontent.com/42717821/228703427-f6b27160-7e78-4f19-bb9d-5eb8a8fb30b3.JPG)
 
 버튼을 누르면 아래 사진 처럼 9가지의 메뉴가 나옵니다.
 
-![리본메뉴2](https://user-images.githubusercontent.com/42717821/228705028-5e248c6e-f9af-4f5b-9657-dab31d9cfabf.JPG)
+![탭 메뉴2](https://user-images.githubusercontent.com/42717821/228705028-5e248c6e-f9af-4f5b-9657-dab31d9cfabf.JPG)
 
 각 옵션에 대한 내용은 아래와 같습니다.
 
@@ -17,20 +17,16 @@ BI-Required의 피벗테이블 9가지 옵션에 대해 알아 봅시다.
 <br><br>
 
 ## 1. 태그
-### 1)설정레이아웃보기
-작동안되고 있음, 여쭤볼것
-### 2)상세데이터연동
-작동 안되고 있음, 여쭤볼것
-### 3)드릴리스트
+### 1)드릴리스트
 피벗테이블의 행을 더블클릭하고, '드릴리스트' 를 클릭하면 피벗테이블의 데이터를 상세하게 확인 할 수 있습니다.
 
 ![태그_드릴리스트](https://user-images.githubusercontent.com/42717821/228707800-a0fa5828-882c-4642-8deb-6d5b37a119ad.JPG)
-### 4)데이터셋2엑셀
+### 2)데이터셋2엑셀
 그래프를 표현할때 사용된 데이터들의 원본 데이터를 엑셀로 받을 수 있습니다.
-### 5)테이블2엑셀
+### 3)테이블2엑셀
 report에 사용된 내용을 엑셀로 받을 수 있습니다.
-### 6)도움말
-어떤건지 잘 모르겠음
+### 4)도움말
+
 * * *
 <br><br>
 
