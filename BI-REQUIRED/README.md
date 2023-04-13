@@ -2,7 +2,7 @@
 sort: 1
 ---
 
-# BI-REQUIRED »ç¿ë ¸Þ´º¾ó
+# BI-REQUIRED ì‚¬ìš©ìž ë©”ë‰´ì–¼
 
 ```
 test
