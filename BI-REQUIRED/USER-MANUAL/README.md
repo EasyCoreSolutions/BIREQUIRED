@@ -1,5 +1,5 @@
 
-# BI-REQUIRED 따라하기
+# BI-REQUIRED 사용하기
 
 source: `{{ page.path }}`
 
