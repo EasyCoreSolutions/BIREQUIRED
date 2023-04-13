@@ -2,12 +2,8 @@
 sort: 1
 ---
 
-# BI-REQUIRED ì‚¬ìš©ì ë©”ë‰´ì–¼
+# BI-REQUIRED »ç¿ë ¸Ş´º¾ó
 
-```
-{% raw %}{% include list.liquid all=true %}{% endraw %}
-
-{% include list.liquid all=true %}
-```
+BI-REQUIRED´Â »ç¿ëÀÚ°¡ °£´ÜÇÑ ¸¶¿ì½º µ¿ÀÛÀ¸·Î, ·¹Æ÷Æ® È­¸éÀ» ±¸¼º ÇÒ ¼ö ÀÖ°Ô µµ¿Í Áİ´Ï´Ù.
 
 {% include list.liquid all=true %}
