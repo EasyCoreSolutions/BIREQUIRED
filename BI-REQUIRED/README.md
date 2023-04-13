@@ -9,4 +9,3 @@ BI-REQUIRED는 사용자가 간단한 마우스 조작으로, 레포트를 구�
 {% raw %}{% include list.liquid all=true %}{% endraw %}
 
 
-{% include list.liquid all=true %}
