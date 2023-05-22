@@ -6,7 +6,7 @@ BI-REQUIRED! 를 사용하기 위해서는 설정파일(LAYOUT)을 설정해야 
 ```json
 {						
 	Layout: {					
-		info: "정보영역-텍스트",			---	옵션바에서 정보로 보여줄 내용을 작성하는곳입니다.
+		info: "정보영역-텍스트", _옵션바에서 정보로 보여줄 내용을 작성하는곳입니다.
 		title: "타이틀영역-텍스트",				
 		grand_total_percent: true,				
 		menu_nav: "expended",								
