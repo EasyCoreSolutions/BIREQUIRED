@@ -1,15 +1,15 @@
 
-# 탭
+# 기능메뉴
 
 BI-Required의 피벗테이블 9가지 옵션에 대해 알아 봅시다.
 
-탭 이란 BI-Required의 우측 상단에
+'기능메뉴'란 BI-Required의 우측 상단에
 
-![탭 메뉴 진입버튼](https://user-images.githubusercontent.com/42717821/228703427-f6b27160-7e78-4f19-bb9d-5eb8a8fb30b3.JPG)
+![기능메뉴 진입버튼](https://user-images.githubusercontent.com/42717821/228703427-f6b27160-7e78-4f19-bb9d-5eb8a8fb30b3.JPG)
 
 버튼을 누르면 아래 사진 처럼 9가지의 메뉴가 나옵니다.
 
-![탭 메뉴2](https://user-images.githubusercontent.com/42717821/228705028-5e248c6e-f9af-4f5b-9657-dab31d9cfabf.JPG)
+![기능메뉴 메뉴](https://user-images.githubusercontent.com/42717821/228705028-5e248c6e-f9af-4f5b-9657-dab31d9cfabf.JPG)
 
 각 옵션에 대한 내용은 아래와 같습니다.
 
