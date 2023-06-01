@@ -9,7 +9,8 @@ BI-Required의 피벗테이블 9가지 옵션에 대해 알아 봅시다.
 
 버튼을 누르면 아래 사진 처럼 9가지의 메뉴가 나옵니다.
 
-![기능메뉴 메뉴](https://user-images.githubusercontent.com/42717821/228705028-5e248c6e-f9af-4f5b-9657-dab31d9cfabf.JPG)
+
+![기능메뉴](https://github.com/SANGHEEZZANG/img_test/assets/42717821/2b777aca-0509-4fcf-928d-b549b99e48f3)
 
 각 옵션에 대한 내용은 아래와 같습니다.
 
