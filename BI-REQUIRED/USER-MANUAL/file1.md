@@ -269,3 +269,11 @@ report에 사용된 내용을 엑셀로 받을 수 있습니다.
 ![챠트리스트_최종](https://github.com/SANGHEEZZANG/img_test/assets/42717821/0e1d58f4-b587-4744-8e8e-d0a48dd0d9bf)
 
 ***
+
+## 10. 설명
+
+### 1) 대쉬보드 설명
+
+사용자가 작업한 대쉬보드의 description을 입력 할 수 있습니다.
+
+이때 HTML 속성도 적용 시킬 수 있습니다. 사용방법 링크(https://easycoresolutions.github.io/BIREQUIRED/LAYOUT/MANUAL-LAYOUT/file1.html#1-info)
