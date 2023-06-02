@@ -143,7 +143,7 @@ report에 사용된 내용을 엑셀로 받을 수 있습니다.
 ![조건선택_조건선택전피벗테이블](https://github.com/SANGHEEZZANG/img_test/assets/42717821/7f5c0e51-0bb7-43b0-9618-9f8cb96fd806)
 
 
-상위 10개 옵션으로 조건을 셀렉한 피벗테이블(검정색으로 덧칠 됨)
+상위 20% 옵션으로 조건을 셀렉한 피벗테이블(검정색으로 덧칠 됨)
 
 ![조건선택_상위20%로 선택](https://github.com/SANGHEEZZANG/img_test/assets/42717821/5a47c8e3-447c-40ad-a601-67d37df34fdc)
 
