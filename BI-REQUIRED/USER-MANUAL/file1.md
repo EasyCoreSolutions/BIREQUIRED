@@ -65,7 +65,7 @@ report에 사용된 내용을 엑셀로 받을 수 있습니다.
 ![피버팅 설정_테이블 테마](https://user-images.githubusercontent.com/42717821/228709585-06bc4e2c-0eec-4c66-bd43-0c8846bbd74f.JPG)
 
 **완성된 피벗테이블 사진(임시)**
-![완성된피버팅설정](https://user-images.githubusercontent.com/42717821/231683590-0d41488b-2308-43f4-acdf-a55fc6a2b8ac.JPG)
+![합계옵션_미적용테이블](https://github.com/SANGHEEZZANG/img_test/assets/42717821/52058cbe-43ac-4dcf-885f-6da8fd6af59b)
 
 
 * * *
