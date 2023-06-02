@@ -62,7 +62,7 @@ report에 사용된 내용을 엑셀로 받을 수 있습니다.
 ### 6) 테이블 테마
 피벗테이블의 테마를 변경 할 수 있습니다.
 
-![피버팅 설정_테이블 테마](https://user-images.githubusercontent.com/42717821/228709585-06bc4e2c-0eec-4c66-bd43-0c8846bbd74f.JPG)
+![피벗팅설정_테이블테마](https://github.com/SANGHEEZZANG/img_test/assets/42717821/caa8e6cd-ba92-4a09-a771-4e2982f44428)
 
 **완성된 피벗테이블 사진**
 ![합계옵션_미적용테이블](https://github.com/SANGHEEZZANG/img_test/assets/42717821/52058cbe-43ac-4dcf-885f-6da8fd6af59b)
