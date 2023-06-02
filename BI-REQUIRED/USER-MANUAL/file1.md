@@ -276,4 +276,4 @@ report에 사용된 내용을 엑셀로 받을 수 있습니다.
 
 사용자가 작업한 대쉬보드의 description을 입력 할 수 있습니다.
 
-이때 HTML 속성도 적용 시킬 수 있습니다. 사용방법 <a href="LAYOUT\MANUAL-LAYOUT\file1.md">링크</a>
+이때 HTML 속성도 적용 시킬 수 있습니다. 사용방법 <a href="LAYOUT\MANUAL-LAYOUT\file1.html">링크</a>
