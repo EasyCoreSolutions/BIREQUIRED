@@ -196,7 +196,7 @@ report에 사용된 내용을 엑셀로 받을 수 있습니다.
 
 ![퍼센트옵션_전체합_최종](https://github.com/SANGHEEZZANG/img_test/assets/42717821/9d731de9-3a19-4b4f-a614-54e1cc391237)
 
-#### 2-2) Percent(%): 열(Row) => ?열이 아니라 행? 각 열마다의 비율을 표시합니다
+#### 2-2) Percent(%): 열(Row) => 각 열에 대한 행의 비율을 표시합니다
 
 ![퍼센트옵션_열합_최종](https://github.com/SANGHEEZZANG/img_test/assets/42717821/f21fceec-22fd-4ff8-8ae4-6e713ca1265a)
 
@@ -204,7 +204,7 @@ report에 사용된 내용을 엑셀로 받을 수 있습니다.
 
 ![퍼센트옵션_열_부분합_최종](https://github.com/SANGHEEZZANG/img_test/assets/42717821/26c8b928-732e-4550-a7a2-ebb1806f1536)
 
-#### 2-4) Percent(%): 컬럼합 "전체 합계" 와 해당 필드의 %를 표시합니다.
+#### 2-4) Percent(%): 각 열들의 "전체 합계" 와 해당 필드의 %를 표시합니다.
 
 ![퍼센트옵션_컬럼합_최종](https://github.com/SANGHEEZZANG/img_test/assets/42717821/ed9eea1d-24a4-44d2-826c-7bc7282a43d9)
 
