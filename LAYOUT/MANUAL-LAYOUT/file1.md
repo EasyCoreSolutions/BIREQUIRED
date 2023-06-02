@@ -207,7 +207,7 @@ BI-REQUIRED! 를 사용하기 위해서는 JSON 으로 구성된 설정파일 ( 
 		"grand_total_percent": true,
 ```
 
-![image-20230602154006453](images/file1/image-20230602154006453.png)
+![image-20230602154306942](images/file1/image-20230602154306942.png)
 
 <p align="center"><font size="2m">총계비율(%)출력 (상단피벗테이블 - true 설정), 미출력 (하단피벗테이블 - false 설정)</font></p>
 
