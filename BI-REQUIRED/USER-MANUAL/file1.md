@@ -64,7 +64,7 @@ report에 사용된 내용을 엑셀로 받을 수 있습니다.
 
 ![피버팅 설정_테이블 테마](https://user-images.githubusercontent.com/42717821/228709585-06bc4e2c-0eec-4c66-bd43-0c8846bbd74f.JPG)
 
-**완성된 피벗테이블 사진(임시)**
+**완성된 피벗테이블 사진**
 ![합계옵션_미적용테이블](https://github.com/SANGHEEZZANG/img_test/assets/42717821/52058cbe-43ac-4dcf-885f-6da8fd6af59b)
 
 
@@ -81,11 +81,11 @@ report에 사용된 내용을 엑셀로 받을 수 있습니다.
 
 **※ 미 적용 피벗테이블**
 
-![합계옵션_미적용테이블](https://user-images.githubusercontent.com/42717821/228726649-fc65346e-ecd4-419d-9e12-221a073a8e81.JPG)
+![합계옵션_미적용테이블](https://github.com/SANGHEEZZANG/img_test/assets/42717821/52058cbe-43ac-4dcf-885f-6da8fd6af59b)
 
 **※ 소계 보이기 적용**
 
-![합계옵션_소계적용](https://user-images.githubusercontent.com/42717821/228727047-041a3bda-2e46-4ba1-8b32-cff8126c3e31.JPG)
+![합계옵션_미적용테이블](https://github.com/SANGHEEZZANG/img_test/assets/42717821/52058cbe-43ac-4dcf-885f-6da8fd6af59b)
 
 
 ### 2) 전체합 보이기 
@@ -93,12 +93,12 @@ report에 사용된 내용을 엑셀로 받을 수 있습니다.
     
 **※ 미 적용 피벗테이블**
 
-![합계옵션_미적용테이블](https://user-images.githubusercontent.com/42717821/228726649-fc65346e-ecd4-419d-9e12-221a073a8e81.JPG)
+![합계옵션_미적용테이블](https://github.com/SANGHEEZZANG/img_test/assets/42717821/52058cbe-43ac-4dcf-885f-6da8fd6af59b)
 
 **※ 전체합 보이기 적용**
 
 
-![합계옵션_전체합보이기](https://user-images.githubusercontent.com/42717821/228727587-500dca24-f59a-4935-ba85-6ba2b0a10a82.JPG)
+![합계옵션_전체합보이기](https://github.com/SANGHEEZZANG/img_test/assets/42717821/4e52daac-a454-4902-bc56-59a2453c105d)
 
 
 ### 3) 컬럼합 보이기 
@@ -106,12 +106,13 @@ report에 사용된 내용을 엑셀로 받을 수 있습니다.
     
 **※ 미 적용 피벗테이블**
 
-![합계옵션_미적용테이블](https://user-images.githubusercontent.com/42717821/228726649-fc65346e-ecd4-419d-9e12-221a073a8e81.JPG)
+![합계옵션_미적용테이블](https://github.com/SANGHEEZZANG/img_test/assets/42717821/52058cbe-43ac-4dcf-885f-6da8fd6af59b)
 
 **※ 전체합 보이기 적용**
 
 
-![합계옵션_컬럼합 보이기](https://user-images.githubusercontent.com/42717821/228728002-15185c71-b7be-43d1-8905-63ad73d85df8.JPG)
+![합계옵션_컬럼합보이기](https://github.com/SANGHEEZZANG/img_test/assets/42717821/735b08e0-5818-417b-8063-c5002487ab35)
+
 
 * * *
 <br><br>
