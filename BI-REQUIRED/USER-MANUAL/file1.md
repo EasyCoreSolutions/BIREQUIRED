@@ -7,7 +7,7 @@ BI-Required의 피벗테이블 9가지 옵션에 대해 알아 봅시다.
 
 ![기능메뉴 진입버튼](https://user-images.githubusercontent.com/42717821/228703427-f6b27160-7e78-4f19-bb9d-5eb8a8fb30b3.JPG)
 
-버튼을 누르면 아래 사진 처럼 9가지의 메뉴가 나옵니다.
+버튼을 누르면 아래 사진 처럼 10가지의 메뉴가 나옵니다.
 
 
 ![기능메뉴](https://github.com/SANGHEEZZANG/img_test/assets/42717821/2b777aca-0509-4fcf-928d-b549b99e48f3)
@@ -40,24 +40,24 @@ report에 사용된 내용을 엑셀로 받을 수 있습니다.
 ### 2) 후보필드
 피벗테이블을 그릴 수 있는 후보 필드(열) 들의 모음입니다. 마우스 드래그로 사용자가 원하는 필드를 '세로필드' 혹은 '가로필드'에 드래그 하여 피벗테이블에 나타 낼 수 있습니다. 문자형으로 구분된 필드들만 위치 시킬 수 있습니다.
 
-![피버팅 설정_후보필드](https://user-images.githubusercontent.com/42717821/228708865-389bec99-9bc8-43a2-873f-c0425a374e40.JPG)
+![피버팅설정_후보필드](https://github.com/SANGHEEZZANG/img_test/assets/42717821/f71770de-45e2-4349-98fe-48aaa52d0186)
 
  
 
 ### 3) 세로필드
 피벗테이블의 세로에 표현될 필드 들을 위치시키는 공간 입니다. '후보필드' 에서 사용자가 원하는 필드를 마우스 드래그로 이동 시킬 수 있으며, 최대 2개 필드만 들어가고 마우스 드래그로 이동된 필드들 의 순서를 바꿀 수 있습니다. 후보필드에서 문자형으로 구분된 필드들만 위치 시킬 수 있습니다.
 
-![피버팅 설정_세로필드](https://user-images.githubusercontent.com/42717821/228709126-23bb7de2-2737-4796-a97b-f1ee66ffb9f8.JPG)
+![피버팅설정_세로필드](https://github.com/SANGHEEZZANG/img_test/assets/42717821/1d0cb178-d2e5-4bf7-b864-1d72c0e374bd)
 
 ### 4) 가로필드
 피벗테이블의 가로에 표현될 필드 들을 위치시키는 공간 입니다. '후보필드' 에서 사용자가 원하는 필드를 마우스 드래그로 이동 시킬 수 있으며, 최대 2개 필드만 들어가고 마우스 드래그로 이동된 필드들 의 순서를 바꿀 수 있습니다. 후보필드에서 '문자형'으로 구분된 필드들만 위치 시킬 수 있습니다.
 
-![피버팅 설정_가로필드](https://user-images.githubusercontent.com/42717821/228709260-2994fa20-569a-437f-9ded-4eecdc3971e1.JPG)
+![피버팅설정_가로필드](https://github.com/SANGHEEZZANG/img_test/assets/42717821/b7cde3bf-2c1f-4f12-8c58-277859cccaaf)
 
 ### 5) 분석필드
 피벗테이블의 값을 표현 시킬 필드 들을 위치시키는 공간 입니다. '후보필드' 에서 사용자가 원하는 필드를 마우스 드래그로 이동 시킬 수 있으며, 최대 2개 필드만 들어가고 마우스 드래그로 이동된 필드들 의 순서를 바꿀 수 있습니다. 후보필드에서 '숫자형'으로 구분된 필드들만 위치 시킬 수 있습니다.
 
-![피버팅 설정_분석필드](https://user-images.githubusercontent.com/42717821/228709470-b6ab26b1-cf79-4ad0-a948-6af89f3d098e.JPG)
+![피버팅설정_분석필드](https://github.com/SANGHEEZZANG/img_test/assets/42717821/0382cecd-ba2c-4edf-8cef-778612623622)
 
 ### 6) 테이블 테마
 피벗테이블의 테마를 변경 할 수 있습니다. 현재는 'ghostwhite', 'lightblue', 'lightgray' 3가지 테마만 지원 합니다.
