@@ -12,17 +12,14 @@ BI-Required의 피벗테이블 9가지 옵션에 대해 알아 봅시다.
 [![이미지링크_태그](https://github.com/SANGHEEZZANG/img_test/assets/42717821/ca775160-f089-463d-a1d4-b558f89f2ec0)](#1-태그) <br>
 [![이미지링크_피벗팅 설정](https://github.com/SANGHEEZZANG/img_test/assets/42717821/c7c438c5-2e1b-4080-bba8-c6552b9e575e)](#2-피벗팅-설정) <br>
 [![이미지링크_합계옵션](https://github.com/SANGHEEZZANG/img_test/assets/42717821/cb653fa8-d03f-4b82-bd7f-dc97223e0d68)](#3-합계옵션) <br>
+[![이미지링크_조건선택](https://github.com/SANGHEEZZANG/img_test/assets/42717821/eafd6ec3-8150-432b-aad2-69f2385be00e)](#4-조건선택) <br>
+[![이미지링크_조건부 포맷팅](https://github.com/SANGHEEZZANG/img_test/assets/42717821/7d85e16b-28ba-48c6-a18c-7a48ce00ed37)](#5-조건부-포맷팅) <br>
+[![이미지링크_퍼센트 옵션](https://github.com/SANGHEEZZANG/img_test/assets/42717821/d7645cbd-512f-45cc-b682-8866a5cddc2c)](#6-퍼센트-옵션) <br>
+[![이미지링크_슬라이서 셋팅](https://github.com/SANGHEEZZANG/img_test/assets/42717821/dcbd196e-3930-41c8-a847-73e9fc4fbc89)](#7-슬라이서-셋팅) <br>
+[![이미지링크_정렬](https://github.com/SANGHEEZZANG/img_test/assets/42717821/123de0cf-1749-4995-bfc5-948e52d91b16)](#8-정렬) <br>
+[![이미지링크_챠트리스트](https://github.com/SANGHEEZZANG/img_test/assets/42717821/e67e11e0-601c-460a-ae28-1ac22b97e092)](#9-차트리스트) <br>
+[![이미지링크_설명](https://github.com/SANGHEEZZANG/img_test/assets/42717821/d2507b0a-3316-4cfc-9468-82ed3809eece)](#10-설명) <br>
 
-
-[2.피벗팅 설정](#2-피벗팅-설정) <br>
-[3.합계옵션](#3-합계옵션) <br>
-[4.조건선택](#4-조건선택) <br>
-[5.조건부 포맷팅](#5-조건부-포맷팅) <br>
-[6.퍼센트 옵션](#6-퍼센트-옵션) <br>
-[7.슬라이서-셋팅](#7-슬라이서-셋팅) <br>
-[8.정렬](#8-정렬) <br>
-[9.챠트리스트](#9-차트리스트) <br>
-[10.설명](#10-설명) <br>
 
 * * *
 <br><br>
