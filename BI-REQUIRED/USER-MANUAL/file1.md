@@ -88,7 +88,7 @@ report에 사용된 내용을 엑셀로 받을 수 있습니다.
 
 **※ 미 적용 피벗테이블**
 
-![합계옵션_미적용테이블](https://github.com/SANGHEEZZANG/img_test/assets/42717821/52058cbe-43ac-4dcf-885f-6da8fd6af59b)
+![소계옵션미적용](https://github.com/SANGHEEZZANG/img_test/assets/42717821/69ddb973-59c9-4173-b7d7-11107ce2810a)
 
 **※ 소계 보이기 적용**
 
