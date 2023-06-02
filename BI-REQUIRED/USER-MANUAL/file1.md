@@ -148,7 +148,7 @@ report에 사용된 내용을 엑셀로 받을 수 있습니다.
 ### 1) 수치필드 
 피벗테이블의 '분석필드'에 놓인 필드중, 사용자가 조건을 주고자 하는 필드를 선택 합니다.
 
-![조건선택_수치필드](https://user-images.githubusercontent.com/42717821/228734085-c3659ab5-bf3a-45f5-8e1d-7a8e2f99d4af.JPG)
+![조건부 포메팅_수치필드](https://github.com/SANGHEEZZANG/img_test/assets/42717821/e3b322d8-9665-4ced-93fa-44dcf8f3642a)
 
 ### 2) 타입
 '바챠트','힙맵','아이콘' 세 개 중 조건을 주고자하는 콤보 박스의 옵션을 선택 합니다.
@@ -167,15 +167,15 @@ report에 사용된 내용을 엑셀로 받을 수 있습니다.
 
 **※조건부포메팅_바타입**
 
-![조건부포메팅 바타입_3](https://user-images.githubusercontent.com/42717821/228739836-12c88d6c-71b2-41bd-b422-c87f3310886b.JPG)
+![조건부 포메팅_바타입_최종](https://github.com/SANGHEEZZANG/img_test/assets/42717821/efdfa910-a545-4c8f-a606-64cfc418c5ce)
 
 **※조건부포메팅_힙맵**
 
-![조건부포메팅 힙맵3](https://user-images.githubusercontent.com/42717821/228740335-8b9d8217-b54b-4205-a8df-b0cd61421bd4.JPG)
+![조건부 포메팅_힙맵_최종](https://github.com/SANGHEEZZANG/img_test/assets/42717821/3f48fdb0-0cbd-4acb-bdb6-2ead8ce476c9)
 
 **※조건부포메팅_아이콘**
 
-![조건부포메팅 아이콘3](https://user-images.githubusercontent.com/42717821/228740762-8cfb4787-0c34-4ffb-8dd3-343be558eff2.JPG)
+![조건부 포매팅_아이콘_최종](https://github.com/SANGHEEZZANG/img_test/assets/42717821/ba042475-7332-48de-8598-c095ee4d8729)
 
 * * *
 <br><br>
