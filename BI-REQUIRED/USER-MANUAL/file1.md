@@ -60,7 +60,7 @@ report에 사용된 내용을 엑셀로 받을 수 있습니다.
 ![피버팅설정_분석필드](https://github.com/SANGHEEZZANG/img_test/assets/42717821/0382cecd-ba2c-4edf-8cef-778612623622)
 
 ### 6) 테이블 테마
-피벗테이블의 테마를 변경 할 수 있습니다. 현재는 'ghostwhite', 'lightblue', 'lightgray' 3가지 테마만 지원 합니다.
+피벗테이블의 테마를 변경 할 수 있습니다.
 
 ![피버팅 설정_테이블 테마](https://user-images.githubusercontent.com/42717821/228709585-06bc4e2c-0eec-4c66-bd43-0c8846bbd74f.JPG)
 
