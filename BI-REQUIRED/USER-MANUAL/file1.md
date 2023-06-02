@@ -243,7 +243,7 @@ report에 사용된 내용을 엑셀로 받을 수 있습니다.
 레이블 : 그래프에서 정렬합니다.
 분석필드 : 피벗테이블에서 수치 데이터를 정렬 합니다
  
-![정렬 결과2](https://user-images.githubusercontent.com/42717821/228750382-6b0d538b-8ead-4de1-a5af-55a874a43441.JPG)
+![정렬_적용후_최종](https://github.com/SANGHEEZZANG/img_test/assets/42717821/257241dc-b0fc-4c4a-9b53-55be5d85e1dd)
 
 * * *
 <br><br>
@@ -266,6 +266,6 @@ report에 사용된 내용을 엑셀로 받을 수 있습니다.
 
 **분류항목의 상단 필드 두 개만** 그래프에 적용됩니다.
 
-![필드목록 3](https://user-images.githubusercontent.com/42717821/228756740-67a3aff4-a4a0-4a13-9686-d03f90c10872.JPG)
+![챠트리스트_최종](https://github.com/SANGHEEZZANG/img_test/assets/42717821/0e1d58f4-b587-4744-8e8e-d0a48dd0d9bf)
 
 ***
