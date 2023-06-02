@@ -7,7 +7,7 @@ BI-Required의 피벗테이블 9가지 옵션에 대해 알아 봅시다.
 
 ![기능메뉴 진입버튼](https://user-images.githubusercontent.com/42717821/228703427-f6b27160-7e78-4f19-bb9d-5eb8a8fb30b3.JPG)
 
-버튼을 누르면 아래 사진 처럼 9가지의 메뉴가 나옵니다.
+버튼을 누르면 아래 사진 처럼 10가지의 메뉴가 나옵니다.
 
 
 ![기능메뉴](https://github.com/SANGHEEZZANG/img_test/assets/42717821/2b777aca-0509-4fcf-928d-b549b99e48f3)
@@ -40,32 +40,32 @@ report에 사용된 내용을 엑셀로 받을 수 있습니다.
 ### 2) 후보필드
 피벗테이블을 그릴 수 있는 후보 필드(열) 들의 모음입니다. 마우스 드래그로 사용자가 원하는 필드를 '세로필드' 혹은 '가로필드'에 드래그 하여 피벗테이블에 나타 낼 수 있습니다. 문자형으로 구분된 필드들만 위치 시킬 수 있습니다.
 
-![피버팅 설정_후보필드](https://user-images.githubusercontent.com/42717821/228708865-389bec99-9bc8-43a2-873f-c0425a374e40.JPG)
+![피버팅설정_후보필드](https://github.com/SANGHEEZZANG/img_test/assets/42717821/f71770de-45e2-4349-98fe-48aaa52d0186)
 
  
 
 ### 3) 세로필드
 피벗테이블의 세로에 표현될 필드 들을 위치시키는 공간 입니다. '후보필드' 에서 사용자가 원하는 필드를 마우스 드래그로 이동 시킬 수 있으며, 최대 2개 필드만 들어가고 마우스 드래그로 이동된 필드들 의 순서를 바꿀 수 있습니다. 후보필드에서 문자형으로 구분된 필드들만 위치 시킬 수 있습니다.
 
-![피버팅 설정_세로필드](https://user-images.githubusercontent.com/42717821/228709126-23bb7de2-2737-4796-a97b-f1ee66ffb9f8.JPG)
+![피버팅설정_세로필드](https://github.com/SANGHEEZZANG/img_test/assets/42717821/1d0cb178-d2e5-4bf7-b864-1d72c0e374bd)
 
 ### 4) 가로필드
 피벗테이블의 가로에 표현될 필드 들을 위치시키는 공간 입니다. '후보필드' 에서 사용자가 원하는 필드를 마우스 드래그로 이동 시킬 수 있으며, 최대 2개 필드만 들어가고 마우스 드래그로 이동된 필드들 의 순서를 바꿀 수 있습니다. 후보필드에서 '문자형'으로 구분된 필드들만 위치 시킬 수 있습니다.
 
-![피버팅 설정_가로필드](https://user-images.githubusercontent.com/42717821/228709260-2994fa20-569a-437f-9ded-4eecdc3971e1.JPG)
+![피버팅설정_가로필드](https://github.com/SANGHEEZZANG/img_test/assets/42717821/b7cde3bf-2c1f-4f12-8c58-277859cccaaf)
 
 ### 5) 분석필드
 피벗테이블의 값을 표현 시킬 필드 들을 위치시키는 공간 입니다. '후보필드' 에서 사용자가 원하는 필드를 마우스 드래그로 이동 시킬 수 있으며, 최대 2개 필드만 들어가고 마우스 드래그로 이동된 필드들 의 순서를 바꿀 수 있습니다. 후보필드에서 '숫자형'으로 구분된 필드들만 위치 시킬 수 있습니다.
 
-![피버팅 설정_분석필드](https://user-images.githubusercontent.com/42717821/228709470-b6ab26b1-cf79-4ad0-a948-6af89f3d098e.JPG)
+![피버팅설정_분석필드](https://github.com/SANGHEEZZANG/img_test/assets/42717821/0382cecd-ba2c-4edf-8cef-778612623622)
 
 ### 6) 테이블 테마
 피벗테이블의 테마를 변경 할 수 있습니다. 현재는 'ghostwhite', 'lightblue', 'lightgray' 3가지 테마만 지원 합니다.
 
 ![피버팅 설정_테이블 테마](https://user-images.githubusercontent.com/42717821/228709585-06bc4e2c-0eec-4c66-bd43-0c8846bbd74f.JPG)
 
-**완성된 피벗테이블 사진(임시)**
-![완성된피버팅설정](https://user-images.githubusercontent.com/42717821/231683590-0d41488b-2308-43f4-acdf-a55fc6a2b8ac.JPG)
+**완성된 피벗테이블 사진**
+![합계옵션_미적용테이블](https://github.com/SANGHEEZZANG/img_test/assets/42717821/52058cbe-43ac-4dcf-885f-6da8fd6af59b)
 
 
 * * *
@@ -81,11 +81,11 @@ report에 사용된 내용을 엑셀로 받을 수 있습니다.
 
 **※ 미 적용 피벗테이블**
 
-![합계옵션_미적용테이블](https://user-images.githubusercontent.com/42717821/228726649-fc65346e-ecd4-419d-9e12-221a073a8e81.JPG)
+![합계옵션_미적용테이블](https://github.com/SANGHEEZZANG/img_test/assets/42717821/52058cbe-43ac-4dcf-885f-6da8fd6af59b)
 
 **※ 소계 보이기 적용**
 
-![합계옵션_소계적용](https://user-images.githubusercontent.com/42717821/228727047-041a3bda-2e46-4ba1-8b32-cff8126c3e31.JPG)
+![합계옵션_소계보이기](https://github.com/SANGHEEZZANG/img_test/assets/42717821/75749b1b-acec-4013-b5b1-7e6a486f52a9)
 
 
 ### 2) 전체합 보이기 
@@ -93,12 +93,12 @@ report에 사용된 내용을 엑셀로 받을 수 있습니다.
     
 **※ 미 적용 피벗테이블**
 
-![합계옵션_미적용테이블](https://user-images.githubusercontent.com/42717821/228726649-fc65346e-ecd4-419d-9e12-221a073a8e81.JPG)
+![합계옵션_미적용테이블](https://github.com/SANGHEEZZANG/img_test/assets/42717821/52058cbe-43ac-4dcf-885f-6da8fd6af59b)
 
 **※ 전체합 보이기 적용**
 
 
-![합계옵션_전체합보이기](https://user-images.githubusercontent.com/42717821/228727587-500dca24-f59a-4935-ba85-6ba2b0a10a82.JPG)
+![합계옵션_전체합보이기](https://github.com/SANGHEEZZANG/img_test/assets/42717821/4e52daac-a454-4902-bc56-59a2453c105d)
 
 
 ### 3) 컬럼합 보이기 
@@ -106,12 +106,13 @@ report에 사용된 내용을 엑셀로 받을 수 있습니다.
     
 **※ 미 적용 피벗테이블**
 
-![합계옵션_미적용테이블](https://user-images.githubusercontent.com/42717821/228726649-fc65346e-ecd4-419d-9e12-221a073a8e81.JPG)
+![합계옵션_미적용테이블](https://github.com/SANGHEEZZANG/img_test/assets/42717821/52058cbe-43ac-4dcf-885f-6da8fd6af59b)
 
 **※ 전체합 보이기 적용**
 
 
-![합계옵션_컬럼합 보이기](https://user-images.githubusercontent.com/42717821/228728002-15185c71-b7be-43d1-8905-63ad73d85df8.JPG)
+![합계옵션_컬럼합보이기](https://github.com/SANGHEEZZANG/img_test/assets/42717821/735b08e0-5818-417b-8063-c5002487ab35)
+
 
 * * *
 <br><br>
@@ -121,7 +122,7 @@ report에 사용된 내용을 엑셀로 받을 수 있습니다.
 ### 1) 수치필드 
 피벗테이블의 '분석필드'에 적용한 숫자형 필드 중, 사용자가 조건을 주고자 하는 필드를 선택합니다.
 
-![조건선택_수치필드](https://user-images.githubusercontent.com/42717821/228734085-c3659ab5-bf3a-45f5-8e1d-7a8e2f99d4af.JPG)
+![조건선택_수치필드](https://github.com/SANGHEEZZANG/img_test/assets/42717821/30e1e2c6-7277-4d50-aebe-87fa259fa67f)
 
 ### 2) 조건
 상위 20%, 상위 10%, 상위20개, 상위10개, 하위10개, 하위20개, 하위 10%, 하위 20%, 직접입력 으로 사용자가 콤보박스에서 지정한 조건으로 피벗테이블의 값을 선택 합니다. '직접'에서 부등호("=",">",">=","<","<=","<>",Between(포함),Between(제외)) 를 사용자가 지정 할 수 있습니다. '입력'에서 사용자가 원하는 부등호와 수치 값을 입력하여, 조건을 지정 할 수 있습니다. '적용' 버튼을 눌러 생성한 조건을 적용 시킵니다. '내용지우기' 버튼을 눌러 조건을 지정하기 전으로 초기화 시킵니다.
@@ -132,12 +133,13 @@ report에 사용된 내용을 엑셀로 받을 수 있습니다.
 
 조건선택 전 피벗테이블
 
-![조건선택_select 전](https://user-images.githubusercontent.com/42717821/228736553-593de603-19dc-42a1-ae7a-5fc61208b8ec.JPG)
+![조건선택_조건선택전피벗테이블](https://github.com/SANGHEEZZANG/img_test/assets/42717821/7f5c0e51-0bb7-43b0-9618-9f8cb96fd806)
 
 
 상위 10개 옵션으로 조건을 셀렉한 피벗테이블(검정색으로 덧칠 됨)
 
-![조건선택_select_후](https://user-images.githubusercontent.com/42717821/228736717-6c006d61-c2b0-4c0d-a1af-0703c0866d91.JPG)
+![조건선택_상위20%로 선택](https://github.com/SANGHEEZZANG/img_test/assets/42717821/5a47c8e3-447c-40ad-a601-67d37df34fdc)
+
 * * *
 <br><br>
 
