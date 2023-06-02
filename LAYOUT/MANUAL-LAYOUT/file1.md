@@ -7,6 +7,7 @@ BI-REQUIRED! 를 사용하기 위해서는 JSON 으로 구성된 설정파일 ( 
 
 설정 파일의 옵션을 확인해보고, 적용하여 다양한 기능을 알아보겠습니다. 
 <br>
+<br>
 
 ```json
 {
@@ -172,14 +173,14 @@ BI-REQUIRED! 를 사용하기 위해서는 JSON 으로 구성된 설정파일 ( 
 
 ![image-20230602135814923](images/file1/image-20230602135814923.png)
 
-<p align="center"><font size="2m">HTML태그를 사용하여 작성한 정보탭</font></p>
+<p align="center"><font size="2m">HTML태그를 사용하여 작성한 정보탭(하단)</font></p>
 
 <br>
 <br>
 
 ## 2. Title
 
-대시보드 타이틀로 보일 내용을 작성하는 곳입니다.<br>HTML태그를 지원합니다.<br>인포옵션과 마찬가지로 false 값을 만들어 대시보드 타이틀을 안보이게 할 수 있습니다.<br>
+대시보드 타이틀로 보일 내용을 작성하는 곳입니다.<br>HTML태그를 지원합니다. 인포 옵션과 마찬가지로 false 값을 만들어 대시보드 타이틀을 잠금 할 수도 있습니다.<br>
 
 ```json
 {
@@ -187,9 +188,9 @@ BI-REQUIRED! 를 사용하기 위해서는 JSON 으로 구성된 설정파일 ( 
 		"title":"<h5>타이틀영역에 출력될 내용입니다!<h5>",
 ```
 
-![image-20230602141450177](images/file1/image-20230602141450177.png)
+![image-20230602142724097](images/file1/image-20230602142724097.png)
 
-<p align="center"><font size="2m">HTML태그를 사용하여 작성한 정보탭</font></p>
+<p align="center"><font size="2m">HTML태그를 사용하여 작성한 대시보드 타이틀(하단)</font></p>
 
 
 
