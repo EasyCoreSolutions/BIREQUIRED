@@ -160,6 +160,8 @@ BI-REQUIRED! 를 사용하기 위해서는 JSON 으로 구성된 설정파일 ( 
 
 ---
 
+<br>
+
 ## 1. Info
 
 우측 옵션 핸들러에서 맨 하단 정보( i ) 탭에서 보일 내용을 작성하는 곳 입니다.<br>
@@ -192,19 +194,22 @@ BI-REQUIRED! 를 사용하기 위해서는 JSON 으로 구성된 설정파일 ( 
 
 <p align="center"><font size="2m">HTML태그를 사용하여 작성한 대시보드 타이틀(하단)</font></p>
 
+<br>
+<br>
 
+## 3. Grand_total_percent
 
+피벗테이블의 전체합(총계)에서 비율(%)을 계산하여 출력합니다.<br>
 
+```json
+{
+	"Layout": {
+		"grand_total_percent": true,
+```
 
+![image-20230602145809993](images/file1/image-20230602145809993.png)
 
+<p align="center"><font size="2m">총계비율(%)출력 (상단피벗테이블 - true 설정), 미출력 (하단피벗테이블 - false 설정)</font></p>
 
-
-
-
-
-
-
-
-
-
-
+<br>
+<br>
