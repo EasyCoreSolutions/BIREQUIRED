@@ -276,6 +276,6 @@ report에 사용된 내용을 엑셀로 받을 수 있습니다.
 
 사용자가 작업한 대쉬보드의 description을 입력 할 수 있습니다.
 
-이때 HTML 속성도 적용 시킬 수 있습니다. 사용방법 #[링크][def]
+이때 HTML 속성도 적용 시킬 수 있습니다. 사용방법 [링크][def]
 
 [def]: #LAYOUT\MANUAL-LAYOUT\file1.md
