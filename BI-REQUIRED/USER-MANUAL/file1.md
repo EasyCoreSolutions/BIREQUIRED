@@ -122,7 +122,7 @@ report에 사용된 내용을 엑셀로 받을 수 있습니다.
 ### 1) 수치필드 
 피벗테이블의 '분석필드'에 적용한 숫자형 필드 중, 사용자가 조건을 주고자 하는 필드를 선택합니다.
 
-![조건선택_수치필드](https://user-images.githubusercontent.com/42717821/228734085-c3659ab5-bf3a-45f5-8e1d-7a8e2f99d4af.JPG)
+![조건선택_수치필드](https://github.com/SANGHEEZZANG/img_test/assets/42717821/30e1e2c6-7277-4d50-aebe-87fa259fa67f)
 
 ### 2) 조건
 상위 20%, 상위 10%, 상위20개, 상위10개, 하위10개, 하위20개, 하위 10%, 하위 20%, 직접입력 으로 사용자가 콤보박스에서 지정한 조건으로 피벗테이블의 값을 선택 합니다. '직접'에서 부등호("=",">",">=","<","<=","<>",Between(포함),Between(제외)) 를 사용자가 지정 할 수 있습니다. '입력'에서 사용자가 원하는 부등호와 수치 값을 입력하여, 조건을 지정 할 수 있습니다. '적용' 버튼을 눌러 생성한 조건을 적용 시킵니다. '내용지우기' 버튼을 눌러 조건을 지정하기 전으로 초기화 시킵니다.
@@ -133,12 +133,13 @@ report에 사용된 내용을 엑셀로 받을 수 있습니다.
 
 조건선택 전 피벗테이블
 
-![조건선택_select 전](https://user-images.githubusercontent.com/42717821/228736553-593de603-19dc-42a1-ae7a-5fc61208b8ec.JPG)
+![조건선택_조건선택전피벗테이블](https://github.com/SANGHEEZZANG/img_test/assets/42717821/7f5c0e51-0bb7-43b0-9618-9f8cb96fd806)
 
 
 상위 10개 옵션으로 조건을 셀렉한 피벗테이블(검정색으로 덧칠 됨)
 
-![조건선택_select_후](https://user-images.githubusercontent.com/42717821/228736717-6c006d61-c2b0-4c0d-a1af-0703c0866d91.JPG)
+![조건선택_상위20%로 선택](https://github.com/SANGHEEZZANG/img_test/assets/42717821/5a47c8e3-447c-40ad-a601-67d37df34fdc)
+
 * * *
 <br><br>
 
