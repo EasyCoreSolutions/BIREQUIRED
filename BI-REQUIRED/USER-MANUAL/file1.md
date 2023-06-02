@@ -190,22 +190,23 @@ report에 사용된 내용을 엑셀로 받을 수 있습니다.
 ### 2) 옵션
 퍼센트 옵션 적용 전 피벗테이블
 
-![조건선택_select 전](https://user-images.githubusercontent.com/42717821/228736553-593de603-19dc-42a1-ae7a-5fc61208b8ec.JPG)
+![퍼센트옵션_적용전 피벗](https://github.com/SANGHEEZZANG/img_test/assets/42717821/a1daa7a2-4d23-40ad-ad33-47cdeaf8fed4)
 
 #### 2-1) Percent(%): 전체합 : 표의 상단에 전체 합의 %를 표시합니다. 전체 합의 비율을 표시합니다.
-![퍼센트옵션 전체합3](https://user-images.githubusercontent.com/42717821/228743974-1da786ff-4c7b-4828-aff2-a88314372d78.JPG)
+
+![퍼센트옵션_전체합_최종](https://github.com/SANGHEEZZANG/img_test/assets/42717821/9d731de9-3a19-4b4f-a614-54e1cc391237)
 
 #### 2-2) Percent(%): 열(Row) => ?열이 아니라 행? 각 열마다의 비율을 표시합니다
 
-![퍼센트옵션 열합3](https://user-images.githubusercontent.com/42717821/228744602-11921ce6-6751-4a6d-93d6-b79b919f6507.JPG)
+![퍼센트옵션_열합_최종](https://github.com/SANGHEEZZANG/img_test/assets/42717821/f21fceec-22fd-4ff8-8ae4-6e713ca1265a)
 
 #### 2-3) Percent(%): 열(Row)부분합 : 해당 필드의 값을 100%로 변환 합니다.
 
-![퍼센트옵션 열부분합3](https://user-images.githubusercontent.com/42717821/228745070-3ba1c489-8b7e-4b80-8302-5f29579759ff.JPG)
+![퍼센트옵션_열_부분합_최종](https://github.com/SANGHEEZZANG/img_test/assets/42717821/26c8b928-732e-4550-a7a2-ebb1806f1536)
 
 #### 2-4) Percent(%): 컬럼합 "전체 합계" 와 해당 필드의 %를 표시합니다.
 
-![퍼센트옵션 컬럼합3](https://user-images.githubusercontent.com/42717821/228745507-d96a73b0-7b10-40df-b9e1-7c688ea5a7f1.JPG)
+![퍼센트옵션_컬럼합_최종](https://github.com/SANGHEEZZANG/img_test/assets/42717821/ed9eea1d-24a4-44d2-826c-7bc7282a43d9)
 
 #### 2-5) .00 : 소숫점 자리 수를 지정 합니다.
 #### 2-6) (%) : 해당 필드의 비율옆에 표기할 텍스트를 표시합니다.
