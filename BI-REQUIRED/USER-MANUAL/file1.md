@@ -85,7 +85,7 @@ report에 사용된 내용을 엑셀로 받을 수 있습니다.
 
 **※ 소계 보이기 적용**
 
-![합계옵션_미적용테이블](https://github.com/SANGHEEZZANG/img_test/assets/42717821/52058cbe-43ac-4dcf-885f-6da8fd6af59b)
+![합계옵션_소계보이기](https://github.com/SANGHEEZZANG/img_test/assets/42717821/75749b1b-acec-4013-b5b1-7e6a486f52a9)
 
 
 ### 2) 전체합 보이기 
