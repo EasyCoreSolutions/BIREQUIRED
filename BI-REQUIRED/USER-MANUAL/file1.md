@@ -7,13 +7,13 @@ BI-Required의 피벗테이블 9가지 옵션에 대해 알아 봅시다.
 
 ![기능메뉴 진입버튼](https://user-images.githubusercontent.com/42717821/228703427-f6b27160-7e78-4f19-bb9d-5eb8a8fb30b3.JPG)
 
-버튼을 누르면 아래 사진 처럼 10가지의 메뉴가 나옵니다.
+버튼을 누르면 아래 사진 처럼 10가지의 메뉴가 나옵니다.(이미지를 클릭하면 해당 메뉴로 이동 합니다.)
 
-[![이미지링크_태그](https://github.com/SANGHEEZZANG/img_test/assets/42717821/ca775160-f089-463d-a1d4-b558f89f2ec0)](#1-태그)
+[![이미지링크_태그](https://github.com/SANGHEEZZANG/img_test/assets/42717821/ca775160-f089-463d-a1d4-b558f89f2ec0)](#1-태그) <br>
+[![이미지링크_피벗팅 설정](https://github.com/SANGHEEZZANG/img_test/assets/42717821/c7c438c5-2e1b-4080-bba8-c6552b9e575e)](#2-피벗팅-설정) <br>
+[![이미지링크_합계옵션](https://github.com/SANGHEEZZANG/img_test/assets/42717821/cb653fa8-d03f-4b82-bd7f-dc97223e0d68)](#3-합계옵션) <br>
 
 
-각 옵션에 대한 내용은 아래와 같습니다.<br>
-[1.태그](#1-태그) <br>
 [2.피벗팅 설정](#2-피벗팅-설정) <br>
 [3.합계옵션](#3-합계옵션) <br>
 [4.조건선택](#4-조건선택) <br>
