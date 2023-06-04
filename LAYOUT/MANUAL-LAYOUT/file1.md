@@ -213,3 +213,16 @@ BI-REQUIRED! 를 사용하기 위해서는 JSON 으로 구성된 설정파일 ( 
 
 <br>
 <br>
+
+## 4. Menu_nav
+
+레포트를 처음 조회했을때 오른쪽에 보여지는 기능탭 ( 옵션핸들러 )을 확장하여 보여주는 옵션입니다. <br>expanded , collapsed , hidden 3가지의 옵션값을 적용할 수 있습니다. <br>
+
+expanded - 기능탭 펼쳐보이기 <br>collapased - 기능탭 접기<br>hidden - 기능탭 비활성화하기<br>
+
+```json
+{
+    "Layout": {
+      "menu_nav": "expended",
+```
+
