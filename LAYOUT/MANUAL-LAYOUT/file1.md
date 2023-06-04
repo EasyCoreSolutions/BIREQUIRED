@@ -230,6 +230,26 @@ expanded - 기능탭 펼쳐보이기 <br>collapsed - 기능탭 접기<br>hidden 
 
 <p align="center"><font size="2m">왼쪽부터 옵션핸들러가 expanded -> collapsed -> hidden 으로 적용된 모습</font></p>
 
+<br>
+<br>
 
+## 5. Charts
 
-commit_Test
+ BI-REQUIRED! 의 레포트 조회 시 하단 차트 부분에 해당하는 부분입니다.<br>차트 옵션은 매뉴얼 차트 설정하기 페이지에서 더 자세히 알아볼 수 있습니다. -> 차트 적용하기 이동링크<br>
+
+| 옵션 | 내용 |
+| --- | --- |
+| "charts_config": "num_bubble.json" | 대시보드가 로딩될때 보여지는 기본 차트에 대한 설정 |
+| "show": true | 대시보드에서 차트기능 사용여부를 설정합니다. |
+| "template_list": "0_layout_list.json"  | 대시보드에서 사용가능한 차트 템플릿 목록 |
+
+```json
+{
+	"Layout": {
+		"charts": {
+			"charts_config": "num_bubble.json",
+			"show": true,
+			"template_list": "0_layout_list.json"
+		},
+```
+
