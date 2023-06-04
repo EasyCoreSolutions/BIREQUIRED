@@ -216,9 +216,13 @@ BI-REQUIRED! 를 사용하기 위해서는 JSON 으로 구성된 설정파일 ( 
 
 ## 4. Menu_nav
 
-레포트를 처음 조회했을때 오른쪽에 보여지는 기능탭 ( 옵션핸들러 )을 확장하여 보여주는 옵션입니다. <br>expanded , collapsed , hidden 3가지의 옵션값을 적용할 수 있습니다. <br>
+대시보드를 처음 조회했을때 오른쪽에 보여지는 기능탭 ( 옵션핸들러 )을 확장하여 보여주는 옵션입니다. <br>expanded , collapsed , hidden 3가지의 옵션값을 적용할 수 있습니다. <br>
 
-expanded - 기능탭 펼쳐보이기 <br>collapsed - 기능탭 접기<br>hidden - 기능탭 비활성화하기<br>
+| 옵션                     | 내용                               | 옵션 설정값 및 예시 |
+| ------------------------ | ---------------------------------- | ------------------- |
+| "menu_nav" : "expanded"  | 기능탭 ( 옵션핸들러 ) 펼쳐보이기   | "expanded"          |
+| "menu_nav" : "collapsed" | 기능탭 ( 옵션핸들러 ) 접기         | "collapsed"         |
+| "menu_nav" : "hidden"    | 기능탭 ( 옵션핸들러 ) 비활성화하기 | "hidden"            |
 
 ```json
 {
@@ -235,13 +239,13 @@ expanded - 기능탭 펼쳐보이기 <br>collapsed - 기능탭 접기<br>hidden 
 
 ## 5. Charts
 
- BI-REQUIRED! 의 레포트 조회 시 하단 차트 부분에 해당하는 부분입니다.<br>차트 옵션은 매뉴얼 차트 설정하기 페이지에서 더 자세히 알아볼 수 있습니다. -> 차트 적용하기 이동링크<br>
+BI-REQUIRED! 의 대시보드 조회 시 하단 차트 부분에 해당하는 부분입니다.<br>차트 옵션은 매뉴얼 차트 설정하기 페이지에서 더 자세히 알아볼 수 있습니다. -> 차트 적용하기 이동링크<br>
 
-| 옵션 | 내용 |
-| --- | --- |
-| "charts_config": "num_bubble.json" | 대시보드가 로딩될때 보여지는 기본 차트에 대한 설정 |
-| "show": true | 대시보드에서 차트기능 사용여부를 설정합니다. |
-| "template_list": "0_layout_list.json"  | 대시보드에서 사용가능한 차트 템플릿 목록 |
+| 옵션 | 내용 | 옵션 설정 값 및 예시 |
+| --- | --- | ---|
+| "charts_config": "num_bubble.json" | 대시보드가 로딩될때 보여지는 기본 차트에 대한 설정 | "차트명.json"|
+| "show": true | 대시보드에서 차트 기능 사용 여부를 설정합니다. | true 또는 false |
+| "template_list": "0_layout_list.json"  | 대시보드에서 사용 가능한 차트 템플릿 목록 | "작성한 템플릿 리스트.json" |
 
 ```json
 {
@@ -253,3 +257,8 @@ expanded - 기능탭 펼쳐보이기 <br>collapsed - 기능탭 접기<br>hidden 
 		},
 ```
 
+<br><br>
+
+## 6. Table_display
+
+대시보드에서 피벗 테이블의 사용 유무를 설정할 수 있는 옵션입니다.<br>
