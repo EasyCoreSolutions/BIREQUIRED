@@ -278,6 +278,7 @@ BI-REQUIRED! 의 대시보드 조회 시 하단 차트 부분에 해당하는 �
 ## 7. Expanded_collapsed_mode
 
 피벗테이블에서 항목 - 확장 기능을 사용 할 것인지 나타냅니다.<br>
+
 ```json
 {
 	"Layout": {
@@ -285,3 +286,58 @@ BI-REQUIRED! 의 대시보드 조회 시 하단 차트 부분에 해당하는 �
 ```
 
 ![image-20230604181712897](images/file1/image-20230604181712897.png)
+
+<p align="center"><font size="2m">피벗테이블의 데이터를 더 세부적으로 확인할 수 있는 확장기능이 있습니다.</font></p>
+
+<br>
+<br>
+
+## 8.Transpose
+
+바꿔놓다라는 뜻으로 세로셀을 가로셀으로 가로셀을 세로셀로 바꾸는 기능과 비슷합니다. <br>
+BI-REQUIRED! 에서는 **피벗테이블 분석필드를 측정기준으로 사용할때 **설정하는 옵션입니다.<br>
+
+```json
+{
+	"Layout": {
+		"transpose": true,
+```
+
+![image-20230604212100120](images/file1/image-20230604212100120.png)
+
+<p align="center"><font size="2m">설정 후 형태가 변경된 피벗테이블</font></p>
+
+<br>
+<br>
+
+## 9.Total_first
+
+합계옵션에서 합계를 먼저 보일 것인지를 설정하는 옵션입니다.<br>
+행열이 긴 피벗테이블의 경우 합계열 또는 행의 위치를 바꿔서 합계값을 먼저 확인할 수 도 있습니다.<br>
+
+```json
+{
+	"Layout": {
+		"total_first": true,
+```
+
+![image-20230604213529365](images/file1/image-20230604213529365.png)
+
+<p align="center"><font size="2m">변경된 합계값 위치</font></p>
+
+<br>
+<br>
+
+## 10. Error_value
+
+피벗테이블 계산 오류시 표시되는 텍스트를 설정하는 옵션입니다. <br>
+
+```json
+{
+	"Layout": {
+		"error_value": "오류",
+```
+
+<br>
+<br>
+<br>
