@@ -444,7 +444,7 @@ BI-REQUIRED 에서는 새로운 필드를 추가하지 않고, 계산 값 필드
 | ----------------------------------------------- | ---------------------------- | ------------------------------------------------------------ |
 | "fieldheader": "반응률(%)"                      | 필드명                       | "필드명" ( 대시보드에 출력될 필드명 )                        |
 | "calculatedname": "ResponseRate"                | 계산값필드명                 | "ResponseRate" ( 옵션파일내에서 사용될 계산값의 명칭)        |
-| "formula": "ResponseCount / ContactCount * 100" | 계산식                       | "ResponseCount / ContactCount * 100" ( 데이터셋의 필드명으로 적어야한다) |
+| "formula": "ResponseCount / ContactCount * 100" | 계산식                       | "ResponseCount / ContactCount * 100" <br>( 데이터셋의 필드명으로 작성해야합니다. ) |
 | "precision": ".00"                              | 표시할 소수점 위치           | ".0" / ".00"                                                 |
 | "surfix": "%"                                   | 계산된 값과 표시되는 텍스트  | "%", "원", etc                                               |
 | "error_value": "calcu error code"               | 오류 발생 시 표시되는 텍스트 |                                                              |
@@ -472,3 +472,9 @@ BI-REQUIRED 에서는 새로운 필드를 추가하지 않고, 계산 값 필드
 		],
 ```
 
+![image-20230605132047778](images/file1/image-20230605132047778.png)
+
+<p align="center"><font size="2m">반응건수 / 접촉건수 * 100 의 계산식으로 반응률이 계산되었다.</font></p>
+
+<br>
+<br>
