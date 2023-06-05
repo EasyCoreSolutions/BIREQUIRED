@@ -36,28 +36,33 @@ BI-REQUIRED! 를 사용하기 위해서는 JSON 으로 구성된 설정파일 ( 
 		],
 		"values": [
 			{
-				"field": "SalesCount",
+				"field": "ResponseCount",
 				"op": "sum",
 				"precision": ""
 			},
 			{
-				"field": "SalesAmt",
+				"field": "ContactCount",
+				"op": "sum",
+				"precision": ""
+			},
+			{
+				"field": "반응률",
 				"op": "sum",
 				"precision": ""
 			}
 		],
 		"calculated": [
 			{
-				"fieldheader": "Response(%)",
-				"calculatedname": "responseRate",
+				"fieldheader": "반응률(%)",
+				"calculatedname": "반응률",
 				"formula": "ResponseCount / ContactCount * 100",
 				"precision": ".00",
 				"surfix": "%",
 				"error_value": "calcu error code"
 			},
 			{
-				"fieldheader": "Offer(%)",
-				"calculatedname": "OfferRate",
+				"fieldheader": "오퍼율(%)",
+				"calculatedname": "오퍼률",
 				"formula": "OfferCount / ContactCount * 100",
 				"precision": ".00",
 				"surfix": "%",
@@ -135,21 +140,28 @@ BI-REQUIRED! 를 사용하기 위해서는 JSON 으로 구성된 설정파일 ( 
 				"sorttype": "DESC"
 			}
 		],
-		"backGroundhighlight": [
+	    "backGroundhighlight": [
 			{
-				"field": "responseRate",
-				"color": "#28a745",
+				"field": "반응률",
+				"color": "#FFD8D6",
 				"condition": [
-					"between 22 and 25"
+					"between 23 and 25"
+				]
+			},
+			{
+				"field": "ContactCount",
+				"color": "#FFD75A",
+				"condition": [
+					">3000"
 				]
 			}
 		],
 		"foreGroundhighlight": [
 			{
 				"field": "ContactCount",
-				"color": "#ff0000",
+				"color": "#FF0001",
 				"condition": [
-					">1000"
+					">5000"
 				]
 			}
 		]
@@ -295,10 +307,10 @@ BI-REQUIRED! 의 대시보드 조회 시 하단 차트 부분에 해당하는 �
 <br>
 <br>
 
-## 8.Transpose
+## 8. Transpose
 
 바꿔놓다라는 뜻으로 세로셀을 가로셀으로 가로셀을 세로셀로 바꾸는 기능과 비슷합니다. <br>
-BI-REQUIRED! 에서는 **피벗테이블 분석필드를 측정기준으로 사용할때 **설정하는 옵션입니다.<br>
+BI-REQUIRED! 에서는 **피벗테이블 분석필드를 측정기준으로 사용할때**설정하는 옵션입니다.<br>
 
 ```json
 {
@@ -313,7 +325,7 @@ BI-REQUIRED! 에서는 **피벗테이블 분석필드를 측정기준으로 사�
 <br>
 <br>
 
-## 9.Total_first
+## 9. Total_first
 
 합계옵션에서 합계를 먼저 보일 것인지를 설정하는 옵션입니다.<br>
 행열이 긴 피벗테이블의 경우 합계열 또는 행의 위치를 바꿔서 합계값을 먼저 확인할 수 도 있습니다.<br>
@@ -358,7 +370,7 @@ BI-REQUIRED! 에서는 **피벗테이블 분석필드를 측정기준으로 사�
 <br>
 <br>
 
-## 12.Row & Columns
+## 12.Row & Columns & Values
 
 피벗테이블의 세로필드 와 가로필드에 사용될 필드명을 설정하는 옵션입니다.<br>
 기능탭 ( 옵션핸들러 )에서 후보필드를 자유롭게 움직여 피벗팅을 할 수도 있지만, 대시보드 조회시 우선적으로 나올 후보필드를 설정할 수도 있습니다. 최대 3개의 필드명을 사용 할 수 있습니다.<br>
@@ -385,3 +397,38 @@ BI-REQUIRED! 에서는 **피벗테이블 분석필드를 측정기준으로 사�
 
 <br><br>
 
+## 13. Values
+
+피벗테이블의 분석필드( 수치형필드 )를 설정하는 옵션입니다.<br>대시보드 조회시 우선적으로 나올 분석필드를 설정합니다. 개수는 제한이 없습니다.<br>
+
+| 옵션                    | 내용                             | 옵션 설정값 및 예시                     |
+| ----------------------- | -------------------------------- | --------------------------------------- |
+| "field": "ContactCount" | 필드명을 설정합니다.             | "필드명" ( 데이터셋에서의 "FieldName" ) |
+| "op": "sum"             | 계산 유형을 설정 합니다.         | "sum" / "avg"                           |
+| "precision": ""         | 계산시 소수점 자리를 설정합니다. | ".0" / ".00"                            |
+
+```json
+{
+	"Layout": {
+		"values": [
+             {
+				"field": "ContactCount",
+				"op": "sum",
+				"precision": ""
+			},
+			{
+				"field": "ResponseCount",
+				"op": "sum",
+				"precision": ""
+			},
+			{
+				"field": "ResponseRate",
+				"op": "",
+				"precision": ""
+			}
+		],
+```
+
+![image-20230605123022708](images/file1/image-20230605123022708.png)
+
+<p align="center"><font size="2m">"ContactCount" 접촉건수, "ResponseCount" 반응건수, 계산값 필드의 "ResponseRate" 반응률(%) 로 분석필드를 설정하였다.</font></p>
