@@ -566,10 +566,36 @@ BI-REQUIRED 에서는 새로운 필드를 추가하지 않고, 계산 값 필드
 
 ## 18. Formatting
 
-BI-REQUIRED! 에서도 조건부 포맷팅을 사용할 수 있습니다.<br>피벗테이블의 수치형 필드에 대한 포맷팅 옵션입니다.<br>
+BI-REQUIRED! 에서도 조건부 서식을 사용할 수 있습니다.<br>피벗테이블의 수치형 필드에 대한 포맷팅 옵션입니다.<br>
 
-| 옵션                                      | 내용                                 | 옵션 설정 값 및 예시                                         |
-| ----------------------------------------- | ------------------------------------ | ------------------------------------------------------------ |
-| "columntotal" , "subtotal" , "grandtotal" | 합계 옵션                            |                                                              |
-| "show": true                              | 합계옵션을 보여 줄 것인지 설정합니다 | true / false                                                 |
-| "label": "합계"                           | 합계옵션의 레이블                    | 사용자가 지정한 이름 ex) 소계, 합계, 총계, 총액, 부분합, 총합등 |
+| 옵션                    | 내용                        | 옵션 설정 값 및 예시                                         |
+| ----------------------- | --------------------------- | ------------------------------------------------------------ |
+| "field": "ContactCount" | 조건부 서식을 설정할 필드명 | "대상필드명" ( "FieldName" )                                 |
+| "type": "bar"           | 조건부 서식의 종류          | "bar" / "map" / "icons"                                      |
+| "option": "#ff555a"     | 표현색상 및 아이콘종류      | "#66CBFF" / "5-arrows" , "3-stars" , "4-circles" , "4-bluecircles" , "5-blue_arrows" |
+
+```json
+{
+	"Layout": {
+		"formatting": [
+			{
+				"field": "ContactCount",
+				"type": "map",
+				"option": "#66CBFF"
+			},
+			{
+				"field": "ResponseCount",
+				"type": "bar",
+				"option": "#FFD859"
+			},
+			{
+				"field": "ResponseRate",
+				"type": "icons",
+				"option": "5-arrows"
+			}
+		],
+```
+
+![image-20230605170217206](images/file1/image-20230605170217206.png)
+
+<p align="center"><font size="2m">기능탭 ( 옵션핸들러 ) 에서도 조건부 포맷팅을 사용할 수 있습니다.</font></p>
