@@ -596,6 +596,37 @@ BI-REQUIRED! 에서도 조건부 서식을 사용할 수 있습니다.<br>피벗
 		],
 ```
 
-![image-20230605170217206](images/file1/image-20230605170217206.png)
+![image-20230605171539818](images/file1/image-20230605171539818.png)
 
 <p align="center"><font size="2m">기능탭 ( 옵션핸들러 ) 에서도 조건부 포맷팅을 사용할 수 있습니다.</font></p>
+
+<br>
+<br>
+
+## 19. Themes & Set_theme
+
+피벗테이블의 테마목록과, 기본테마를 설정할 수 있는 옵션입니다.<br>
+```json
+{
+	"Layout": {
+		"themes": [
+			{
+				"name": "ghostwhite",
+				"class": "ghostwhite-theme"
+			},
+			{
+				"name": "lightblue",
+				"class": "lightblue-theme"
+			},
+			{
+				"name": "lightgrey",
+				"class": "lightgrey-theme"
+			},
+			{
+				"name": "aliceblue",
+				"class": "aliceblue-theme"
+			}
+		],
+		"set_theme": "aliceblue",
+```
+
