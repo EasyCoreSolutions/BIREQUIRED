@@ -478,3 +478,21 @@ BI-REQUIRED 에서는 새로운 필드를 추가하지 않고, 계산 값 필드
 
 <br>
 <br>
+
+## 15. Thousand_delimeter & Blank_text & Selectcolor
+
+| 옵션                      | 내용                               | 옵션 설정 값 및 예시                                |
+| ------------------------- | ---------------------------------- | --------------------------------------------------- |
+| "thousand_delimeter": "," | 천단위 구분자                      | ","  /  "."                                         |
+| "blank_text": "(blank)"   | 데이터가 없는 경우 출력되는 텍스트 | "(blank)"                                           |
+| "selectcolor": "#FFF94D"  | 피벗테이블의 셀 선택시 색상선택    | 다양한 색깔을 피벗테이블과 어울리도록 사용자화 가능 |
+
+```json
+{
+	"Layout": {
+		"thousand_delimeter": ",",
+		"blank_text": "(blank)",
+		"selectcolor": "#999999",
+```
+
+![image-20230605135304268](images/file1/image-20230605135304268.png)
