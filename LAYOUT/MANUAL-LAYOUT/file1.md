@@ -357,7 +357,7 @@ BI-REQUIRED! 에서는 **피벗테이블 분석필드를 측정기준으로 사�
 <br>
 <br>
 
-## 11.Excelfile
+## 11. Excelfile
 
 피벗테이블 데이터를 파일로 다운로드 할 경우에 적용되는 파일명에 대한 옵션입니다. <br>
 ```json
@@ -370,7 +370,7 @@ BI-REQUIRED! 에서는 **피벗테이블 분석필드를 측정기준으로 사�
 <br>
 <br>
 
-## 12.Row & Columns & Values
+## 12. Row & Columns
 
 피벗테이블의 세로필드 와 가로필드에 사용될 필드명을 설정하는 옵션입니다.<br>
 기능탭 ( 옵션핸들러 )에서 후보필드를 자유롭게 움직여 피벗팅을 할 수도 있지만, 대시보드 조회시 우선적으로 나올 후보필드를 설정할 수도 있습니다. 최대 3개의 필드명을 사용 할 수 있습니다.<br>
@@ -401,7 +401,7 @@ BI-REQUIRED! 에서는 **피벗테이블 분석필드를 측정기준으로 사�
 
 피벗테이블의 분석필드( 수치형필드 )를 설정하는 옵션입니다.<br>대시보드 조회시 우선적으로 나올 분석필드를 설정합니다. 개수는 제한이 없습니다.<br>
 
-| 옵션                    | 내용                             | 옵션 설정값 및 예시                     |
+| 옵션                    | 내용                             | 옵션 설정 값 및 예시                    |
 | ----------------------- | -------------------------------- | --------------------------------------- |
 | "field": "ContactCount" | 필드명을 설정합니다.             | "필드명" ( 데이터셋에서의 "FieldName" ) |
 | "op": "sum"             | 계산 유형을 설정 합니다.         | "sum" / "avg"                           |
@@ -429,6 +429,46 @@ BI-REQUIRED! 에서는 **피벗테이블 분석필드를 측정기준으로 사�
 		],
 ```
 
-![image-20230605123022708](images/file1/image-20230605123022708.png)
+![image-20230605124233026](images/file1/image-20230605124233026.png)
 
 <p align="center"><font size="2m">"ContactCount" 접촉건수, "ResponseCount" 반응건수, 계산값 필드의 "ResponseRate" 반응률(%) 로 분석필드를 설정하였다.</font></p>
+
+<br>
+<br>
+
+## 14. Calculated
+
+BI-REQUIRED 에서는 새로운 필드를 추가하지 않고, 계산 값 필드를 만들어서 사용할 수 있습니다.<br>피벗테이블에서 사용하는 계산 값을 설정하는 옵션입니다.<br>
+
+| 옵션                                            | 내용                         | 옵션 설정 값 및 예시                                         |
+| ----------------------------------------------- | ---------------------------- | ------------------------------------------------------------ |
+| "fieldheader": "반응률(%)"                      | 필드명                       | "필드명" ( 대시보드에 출력될 필드명 )                        |
+| "calculatedname": "ResponseRate"                | 계산값필드명                 | "ResponseRate" ( 옵션파일내에서 사용될 계산값의 명칭)        |
+| "formula": "ResponseCount / ContactCount * 100" | 계산식                       | "ResponseCount / ContactCount * 100" ( 데이터셋의 필드명으로 적어야한다) |
+| "precision": ".00"                              | 표시할 소수점 위치           | ".0" / ".00"                                                 |
+| "surfix": "%"                                   | 계산된 값과 표시되는 텍스트  | "%", "원", etc                                               |
+| "error_value": "calcu error code"               | 오류 발생 시 표시되는 텍스트 |                                                              |
+
+```json
+{
+	"Layout": {
+        "calculated": [
+			{
+				"fieldheader": "반응률(%)",
+				"calculatedname": "ResponseRate",
+				"formula": "ResponseCount / ContactCount * 100",
+				"precision": ".00",
+				"surfix": "%",
+				"error_value": "calcu error code"
+			},
+			{
+				"fieldheader": "오퍼율(%)",
+				"calculatedname": "OfferRate",
+				"formula": "OfferCount / ContactCount * 100",
+				"precision": ".00",
+				"surfix": "%",
+				"error_value": "calcu error code"
+			}
+		],
+```
+
