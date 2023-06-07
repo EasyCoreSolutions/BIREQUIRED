@@ -75,7 +75,7 @@ BI-REQUIRED! 를 실행하기 위한 스크립트입니다.<br>
 		{
 			"FieldName": "SalesCount",
 			"FieldDesc": "건수",
-			"FieldType": "NUM”
+			"FieldType": "NUM"
 		},
 		{
 			"FieldName": "SalesAmt",
