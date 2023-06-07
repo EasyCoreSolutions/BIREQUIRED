@@ -24,25 +24,24 @@
 Chart-Layout-Builder 매뉴얼 페이지 바로가기<br>
 
 ```json
-{					
+{
 	"tabs": [
 		{
 			"charts": [
 				{
-					"type": "pie",									
-					"xAxis": "@@FIELD1@@",						
-					"yAxis": "@@VALUE1@@",						
-					"width": "col-md-6 col-lg-6",					
-					"height": "300px",								
-					"lazyRendering": false,						
-					"initialText": "",							
-					"options": "",									
-					"customOptions": [							
-					],
+					"type": "pie",
+					"xAxis": "@@FIELD1@@",
+					"yAxis": "@@VALUE1@@",
+					"width": "col-md-6 col-lg-6",
+					"height": "300px",
+					"lazyRendering": false,
+					"initialText": "",
+					"options": "",
+					"customOptions": [],
 					"css": ""
 				},
 				{
-					"type": "sankey",								
+					"type": "sankey",
 					"xAxis": "@@FIELD1@@",
 					"yAxis": "@@VALUE1@@",
 					"width": "col-md-12 col-lg-12",
@@ -53,17 +52,16 @@ Chart-Layout-Builder 매뉴얼 페이지 바로가기<br>
 					"detailLink": false,
 					"caption": "",
 					"initialText": "",
-					"customOptions": [
-					],
+					"customOptions": [],
 					"css": "",
-					"dimension": [	
-						@@FIELD1@@,							
-						@@FIELD2@@,							
-						@@FIELD3@@							
+					"dimension": [
+						"@@FIELD1@@",
+						"@@FIELD2@@",
+						"@@FIELD3@@"
 					]
 				}
 			],
-			"border":  false
+			"border": false
 		}
 	]
 }
@@ -114,3 +112,6 @@ Chart-Layout-Builder 매뉴얼 페이지 바로가기<br>
             },		
 ```
 
+<p align="center"><font size="2m">위에서 만든 파이-생키 JSON 파일을 등록</font></p>
+
+<br><br>
