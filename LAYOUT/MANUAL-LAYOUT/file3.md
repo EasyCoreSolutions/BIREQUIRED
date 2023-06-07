@@ -110,3 +110,5 @@ Chart-Layout-Builder 매뉴얼 페이지 바로가기<br>
 ![image-20230607143315578](images/file3/image-20230607143315578.png)
 
 <p align="center"><font size="2m">위에서 "0_layout_list.json"에 등록한 3개의 차트프리셋리스트를 볼수있고, 등록한 파이-생키차트가 동적으로 만들어진것을 확인 할 수 있습니다.</font></p>
+
+<br><br>
