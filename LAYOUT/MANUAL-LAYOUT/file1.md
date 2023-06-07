@@ -661,22 +661,34 @@ BI-REQUIRED! 에서도 조건부 서식을 사용할 수 있습니다.<br>피벗
 				{
 					"field": "Gender",
 					"size": 5
+				},
+				{
+					"field": "AgeGroup",
+					"size": 5
+				},
+				{
+					"field": "CustType",
+					"size": 4
 				}
 			]
 		},
 ```
+
+![image-20230607102032247](images/file1/image-20230607102032247.png)
+
+<p align="center"><font size="2m">기능탭 ( 옵션핸들러 ) 에서도 슬라이서를 하단위치로 바꾼 모습</font></p>
 
 <br>
 <br>
 
 ## 21.Column_sorting
 
-피벗테이블의 정렬항목을 적용하는 옵션입니다.<br>
+피벗테이블의 정렬 항목을 적용하는 옵션입니다.<br>
 
-| 옵션               | 내용     | 옵션 설정 값 및 예시                           |
-| ------------------ | -------- | ---------------------------------------------- |
-| "fieldname": "AGE" | 필드명   | "top" / "left" / "right" / "bottom" / "hidden" |
-| "sorttype": "DESC" | 정렬타입 | "필드명"                                       |
+| 옵션               | 내용     | 옵션 설정 값 및 예시 |
+| ------------------ | -------- | -------------------- |
+| "fieldname": "AGE" | 필드명   | "필드명"             |
+| "sorttype": "DESC" | 정렬타입 | "DESC" / "ASC"       |
 
 ```json
 {
@@ -689,5 +701,59 @@ BI-REQUIRED! 에서도 조건부 서식을 사용할 수 있습니다.<br>피벗
 		],
 ```
 
+![image-20230607103239695](images/file1/image-20230607103239695.png)
+
+<br><br>
+
+## 22. Back & Fore Groundhighlighting
+
+피벗테이블의 셀 백그라운드와 폰트색상을 설정하는 옵션입니다.<br>
+색깔과, 표시되는 조건을 사용자화하여 조건에 맞는 데이터를 눈에 띄게 하이라이팅 할 수 있습니다.<br>
+
+| 옵션                                 | 내용                  | 옵션 설정 값 및 예시                |
+| ------------------------------------ | --------------------- | ----------------------------------- |
+| "backGroundhighlight"                | 셀의 배경 색상을 설정 |                                     |
+| "foreGroundhighlight"                | 셀의 폰트 색상을 설정 |                                     |
+| "field": "ResponseRate"              | 대상 필드명           | "필드명"                            |
+| "color": "#FFD8D6"                   | 색상                  | "색상컬러"                          |
+| "condition": [ "between 23 and 25" ] | 표시되는 조건         | "between 23 and 25" / ">1000" / etc |
+
+```json
+{
+	"Layout": {
+	    "backGroundhighlight": [
+			{
+				"field": "ResponseRate",
+				"color": "#FFD8D6",
+				"condition": [
+					"between 23 and 25"
+				]
+			},
+			{
+				"field": "ResponseCount",
+				"color": "#FFD75A",
+				"condition": [
+					">1000"
+				]
+			}
+		],
+		"foreGroundhighlight": [
+			{
+				"field": "ContactCount",
+				"color": "#FF0001",
+				"condition": [
+					">5000"
+				]
+			}
+		]
+	}
+}
+```
+
+![image-20230607104642984](images/file1/image-20230607104642984.png)
+
+<p align="center"><font size="2m">"ResponseRate" 반응률은 23에서 25사이의 값, "ResponseCount" 반응건수는 1000보다 큰 값, "ContactCount" 접촉건수는 5000보다 큰 값에만 셀의배경 셀의 폰트 색상이 적용된 모습</font></p>
+
+<br>
 <br>
 <br>
